@@ -20,19 +20,21 @@ import com.example.e_softwarica.model.modelStudent;
 
 public class addStudentFragment extends Fragment {
 
-    EditText name, age, address;
     RadioGroup gender;
     Button btnRegister;
     RadioButton btnGender;
+    EditText name, age, address;
+
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         final View v = inflater.inflate(R.layout.add_student, container, false);
-        name = v.findViewById(R.id.etName);
-        age = v.findViewById(R.id.etAge);
         address = v.findViewById(R.id.etAddress);
         gender = v.findViewById(R.id.rgGender);
+        name = v.findViewById(R.id.etName);
+        age = v.findViewById(R.id.etAge);
+
         btnRegister = v.findViewById(R.id.btnRegister);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {

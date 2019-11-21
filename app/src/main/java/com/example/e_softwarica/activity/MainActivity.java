@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import com.example.e_softwarica.fragments.aboutUsFragment;
+import com.example.e_softwarica.fragments.aboutFragment;
 import com.example.e_softwarica.fragments.addStudentFragment;
 import com.example.e_softwarica.fragments.homeFragment;
 import com.example.e_softwarica.R;
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                             break;
 
                         case R.id.about:
-                            selectedFragment = new aboutUsFragment();
+                            selectedFragment = new aboutFragment();
                             setTitle("About Us");
                             break;
                     }

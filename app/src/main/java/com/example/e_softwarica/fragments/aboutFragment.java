@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.e_softwarica.R;
 
-public class aboutUsFragment extends Fragment{
+public class aboutFragment extends Fragment{
 
     @Nullable
     @Override

@@ -35,7 +35,7 @@ public class LoginActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Toast.makeText(LoginActivity.this,"Username or Password do not matched", Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this,"Username or Password didn't matched", Toast.LENGTH_LONG).show();
                     etUsername.requestFocus();
                 }
 
