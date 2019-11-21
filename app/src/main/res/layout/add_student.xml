@@ -11,10 +11,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="Student info"
+            android:textAlignment="center"
+            android:textColor="#EB111010"
             android:textSize="30dp"
-            android:text="Student Details"
-            android:textStyle="bold"
-            android:textAlignment="center"/>
+            android:textStyle="bold" />
 
 
         <EditText
@@ -79,15 +80,15 @@
 
         <Button
             android:id="@+id/btnRegister"
-            android:layout_width="383dp"
+            android:layout_width="380dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
             android:background="@drawable/btn_rounded_corners"
             android:text="SAVE"
             android:textColor="#FFFEFE"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp"/>
+            android:textStyle="bold" />
 
     </LinearLayout>
 

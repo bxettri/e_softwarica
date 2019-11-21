@@ -9,53 +9,45 @@
 
     <EditText
         android:id="@+id/username"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_width="299dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="116dp"
         android:hint="Username"
-        android:textSize="22dp"
-        app:layout_constraintBottom_toTopOf="@+id/password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.73" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <EditText
         android:id="@+id/password"
-        android:layout_width="301dp"
-        android:layout_height="57dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginBottom="72dp"
-        android:hint="Password"
         android:inputType="textPassword"
-        android:textSize="22dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        android:layout_width="299dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:hint="Password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <Button
         android:id="@+id/btnLogin"
-        android:layout_width="222dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
+        android:layout_width="299dp"
+        android:layout_height="60dp"
+        android:text="Sign in"
         android:background="@drawable/btn_rounded_corners"
-        android:text="Sign In"
-        android:textColor="#FFF"
-        android:textSize="20dp"
+        android:textColor="#FFFEFE"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.576"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.504" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="389dp"
-        android:layout_height="114dp"
-        android:layout_marginTop="124dp"
+        android:id="@+id/imageView2"
+        android:layout_width="333dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="84dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
